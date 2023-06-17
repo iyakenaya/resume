@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      name="keywords"
+      content="natalia, cv, resume"
+    />
+    <meta
+      name="description"
+      content="Это сайт - резюме Наталии Нестеренко"
+    />
+    <link
+      rel="stylesheet"
+      href="styles.css"
+    />
+    <title>Natalia Resume</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img
+          src="avatar.jpg"
+          alt="my photo"
+          class="avatar"
+        />
+        <div class="info-text">
+          <h1>Наталия Нестеренко</h1>
+          <p>
+            Мне <strong>22</strong>, я <strong>украинка</strong>, живу в
+            <strong>Санкт-Петербурге</strong>
+          </p>
+          <p>
+            Люблю
+            <em
+              >заниматься йогой, слушать подкасты/классическую музыку и
+              программировать</em
+            >
+          </p>
+
+          <h4>Мои социальные сети</h4>
+          <a
+            href="https://www.instagram.com/iyakenaya/"
+            target="_blank"
+            >Instagram</a
+          >
+          <a
+            href="https://t.me/iyakenaya"
+            target="_blank"
+            >Telegram</a
+          >
+          <a
+            href="https://m.vk.com/iyakenaya"
+            target="_blank"
+            >VK</a
+          >
+
+          <h4>Мой GitHub</h4>
+          <a
+            href="https://github.com/iyakenaya"
+            target="_blank"
+            >GitHub</a
+          >
+        </div>
+      </div>
+
+      <div class="card bg-yellow">
+        <h4>Мои хобби</h4>
+        <ol class="list">
+          <li>Путешествия</li>
+          <li>Вышивка</li>
+        </ol>
+      </div>
+
+      <div class="card bg-green">
+        <h4>Опыт работы:</h4>
+        <table class="table">
+          <!-- <thead>
+            <tr>
+              <th>Название</th>
+              <th>Должность</th>
+              <th>Год</th>
+            </tr>
+          </thead> -->
+          <tbody>
+            <tr>
+              <td>Храм</td>
+              <td>Пекарь</td>
+              <td>2019-2020</td>
+            </tr>
+            <tr>
+              <td>ТСЖ</td>
+              <td>Диспетчер</td>
+              <td>2020-2021</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <form
+        action="/"
+        class="form"
+      >
+        <h4>Связаться со мной</h4>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Ваше имя:</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Введите ваше имя"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Ваш email:</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Введите ваш email"
+            />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Ваше сообщение:</label>
+          <textarea
+            id="message"
+            cols="20"
+            rows="5"
+            placeholder="Введите ваше сообщение..."
+          ></textarea>
+        </div>
+        <input
+          type="submit"
+          value="Отправить!"
+          class="btn"
+        />
+      </form>
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+  </body>
+</html>
